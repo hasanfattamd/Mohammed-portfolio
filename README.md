@@ -2,6 +2,9 @@
 
 A one-page portfolio based on Mohammed’s approved white-background design. The production site is in `dist/`; editable source is in `src/`.
 
+Live site: **https://mohammed-portfolio-zeta.vercel.app/**  
+Vercel project: **https://vercel.com/mohammed-hasanfatta/mohammed-portfolio**
+
 ## Included
 
 - Upright professional portrait and approved blue/coral accents.
@@ -28,7 +31,7 @@ No package installation is needed to build or preview. Node 22 or newer is recom
 Build command: `npm run build`
 Output directory: `dist`
 
-Codex will handle deployment commands after you authenticate with Vercel. The project is not published until a successful deployment returns a live URL. See `DEPLOYMENT.md` for the guided sequence.
+The first deployment was completed through Vercel Drop on 10 October 2026. It is a static upload, so local edits do not publish automatically. See `DEPLOYMENT.md` for the deployment record and update guidance.
 
 When Vercel provides `VERCEL_PROJECT_PRODUCTION_URL`, the build generates canonical metadata and a sitemap automatically. For a custom domain, set `SITE_URL` to the final HTTPS origin and redeploy.
 

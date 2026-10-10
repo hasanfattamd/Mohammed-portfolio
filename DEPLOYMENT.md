@@ -1,14 +1,15 @@
-# Guided Vercel deployment
+# Vercel deployment
 
-The project is ready locally. Codex handles setup and deployment; Mohammed does not need to edit code or run commands.
+The portfolio is live at **https://mohammed-portfolio-zeta.vercel.app/**.
 
-1. **Sign in.** Open https://vercel.com/login and sign in using your preferred method. Complete any one-time code or account verification yourself; do not paste passwords or private codes into the chat.
-2. **Connect this computer.** Codex starts the Vercel CLI sign-in flow. Approve the displayed device authorization while signed in. This lets Codex upload this project without requiring a GitHub repository.
-3. **Choose the account.** If more than one Vercel workspace is available, choose the intended personal workspace. Codex creates the portfolio project there and applies the existing build configuration.
-4. **Deploy.** Codex uploads the local project and runs its production build. The build command is `npm run build`, the output is `dist`, and the framework preset is Other. No environment variables are required for the first deployment.
-5. **Check the live site.** Codex verifies the returned URL, images, navigation, and contact links at desktop and phone sizes.
-6. **Optional custom domain.** A Vercel URL works immediately. If you want a custom domain later, Codex guides the domain and DNS steps separately and updates the canonical URL.
+It was deployed on 10 October 2026 to Mohammed's personal Vercel Hobby workspace as the **mohammed-portfolio** project. Codex uploaded the static production files through Vercel Drop and checked the public page, portrait, project cards, navigation, email, and LinkedIn links.
 
-We will follow these screens one at a time in chat. No deployment has been completed yet.
+Project dashboard: https://vercel.com/mohammed-hasanfatta/mohammed-portfolio
 
-Official reference: https://vercel.com/docs/deployments
+## Making changes
+
+The editable files are in `src/`. Run `npm run build` to refresh `dist/`, then deploy the refreshed files to the existing Vercel project. This initial Vercel Drop upload is not connected to Git, so editing local files alone will not update the public site. Codex can handle the next deployment when requested.
+
+`vercel.json` in the project root configures the source build (`npm run build`, output `dist`) for a future CLI or Git-connected deployment. `portfolio-static.zip` contains the files used for the first Drop deployment. Its contents should be rebuilt before uploading any future changes.
+
+No environment variables are required. If a custom domain is added later, set `SITE_URL` to its final HTTPS address and redeploy so canonical metadata and the sitemap use that domain.
