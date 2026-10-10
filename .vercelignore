@@ -1,0 +1,9 @@
+.git
+node_modules
+.vercel
+.DS_Store
+previews
+README.md
+DEPLOYMENT.md
+CONTENT.md
+QA.md
