@@ -159,6 +159,7 @@ html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#ff
   #portfolio-white .project-info p{font-size:14px}
   #portfolio-white .project-card:last-child{grid-column:1 / -1;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr)}
   #portfolio-white .project-card:last-child .device-scene{aspect-ratio:1.75;border-bottom:0;border-right:1px solid var(--pw-line)}
+  #portfolio-white .project-card:last-child .macbook{width:80%;left:4%;top:12%}
   #portfolio-white .project-card:last-child .project-info{align-self:center;padding:clamp(28px,4vw,70px)}
   #portfolio-white .project-card:last-child .project-info h3{font-size:clamp(25px,2.6vw,42px)}
   #portfolio-white .feedback{gap:clamp(50px,7vw,140px);padding:55px 0}
