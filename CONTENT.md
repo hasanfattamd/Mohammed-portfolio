@@ -1,8 +1,8 @@
 # Portfolio — approved design and current content
 
-The white-background design is approved. It uses Manrope typography, near-black text, restrained cornflower blue and coral accents, and the upright portrait. Only service and email/contact icons use blue; other icons keep their existing colors. The Contact navigation label has no arrow.
+The white-background design is approved. It uses Manrope typography, near-black text, restrained cornflower blue and coral accents, and the upright portrait. In the hero, the portrait carries two floating cards (his name and role, and a Figma → WordPress and React chip), the primary button is a pill with an arrow, and the three services below it form a three-cell strip. The four service cards use brand marks (WordPress, React, Figma, Elementor) instead of line icons; the email and LinkedIn icons use blue; other icons keep their existing colors. The two main service cards open on a demo: a WordPress content editor with a live preview, and a React component in a code window. The agencies section is a tinted panel that draws the white-label hand-off as three connected roles. The five process phases sit on one track that fills up to the phase being pointed at, focused or tapped. The Contact navigation label has no arrow.
 
-The work section uses project cards with paired MacBook Pro and iPhone Pro website mockups. Desktop and mobile previews for all five projects are captured from the live websites. Epic Tours uses the Gran Canaria website provided by the user. The About section includes a small developer.js profile with WordPress and React as the build stack, “Design → code” as the approach, and GenAI as the current learning area. Client feedback shows only the quote, name, and role.
+The work section is a numbered index of the seven projects; each pairs a desktop browser view with a mobile view of the same site, with no device tabs and no “View website” hover button. Desktop and mobile previews for all seven projects are captured from the live websites. Epic Tours uses the Gran Canaria website provided by the user. The About section includes a small developer.js profile with WordPress and React as the build stack, “Design → code” as the approach, and GenAI as the current learning area. Client feedback shows only the quote, name, and role, set large with one phrase underlined. The About section sets the introduction beside the developer.js editor card, lists the three skill groups as a numbered accordion, and shows the four teams as a strip. The contact section is the page’s one dark panel, with email and LinkedIn as full-width rows.
 
 Deployment target: **Vercel**. This is the current mockup and content record; the production website has not been built or deployed.
 
@@ -10,13 +10,13 @@ Name: **Mohammed**
 Email: [hasanfattamd@gmail.com](mailto:hasanfattamd@gmail.com)
 LinkedIn: [Mohammed’s profile](https://www.linkedin.com/in/hasanfattamd/)
 
-The five portfolio projects and the cleaning service name/category have been confirmed by the user. The client feedback is transcribed from the user-provided screenshot. No career dates, experience statistics, or project-specific technology claims have been added.
+The first five portfolio projects and the cleaning service name/category have been confirmed by the user. Rebecca Nina Hair and The Welcome Pages were added from the URLs the user supplied on 11 October 2026; their names are taken from the sites, and the user confirmed their category lines. The user chose the index layout for the work section after comparing it with a grid, a sideways reel, and a stack of panels. The client feedback is transcribed from the user-provided screenshot. No career dates, experience statistics, or project-specific technology claims have been added.
 
 Mohammed Services For agencies Work Contact
 
 Mohammed WordPress & React developer
 
-Independent development partner
+From design to working website
 
 ## Your vision. A website built with care.
 
@@ -62,11 +62,11 @@ Let’s discuss a partnership Your agency Strategy, design & client relationship
 
 About & experience
 
-### A design-minded developer. A practical collaborator.
+### I build websites people use and teams can manage.
 
-I enjoy the point where design meets development: translating a layout, making it work across screens, and giving content a clear structure.
+I build WordPress websites and React frontends that stay useful after launch—clear for visitors, responsive across screens, and straightforward for teams to update.
 
-My experience spans custom WordPress builds, component-based React interfaces, and the frontend foundations that make a website usable.
+I work through the details that make a build dependable: editable content structures, reusable components, integrations, accessibility, and careful testing.
 
 Currently exploring GenAI Learning how it can support digital experiences and development workflows.
 
@@ -150,7 +150,31 @@ Development experience across agency and client teams.
 
 Currently working withOcean State Networking
 
-Previous collaborations Civitta · Davina Connect · Burn with Kearns
+Previous collaboration Civitta · Previous collaboration Davina Connect · Previous collaboration Burn with Kearns
+
+Technologies & tools
+
+### The tools behind the build.
+
+From design handoff to development and site management, I use a practical stack that fits the project.
+
+**WordPress & content** — Flexible editing, custom functionality, and familiar workflows for the people maintaining your site.
+
+WordPress · PHP · MySQL · Elementor
+
+Also: ACF Pro · Gutenberg · Divi · Beaver Builder
+
+**React & frontend** — Reusable components and responsive interfaces built to work across screens and browsers.
+
+React · JavaScript · HTML5 · CSS
+
+Also: REST APIs · state management · accessibility
+
+**Design & workflow** — A clear path from Figma files to versioned code, review, and a maintainable handover.
+
+Figma · Git · GitHub · Vite
+
+Also: responsive QA · testing · browser debugging
 
 Working together
 
@@ -207,6 +231,8 @@ Different industries. Individual design needs.
 03 New England Cleaning Service Service provider
 04 Epic Tours — Gran Canaria Travel / Tourism
 05 Bay Shores Living Real estate / Property services
+06 Rebecca Nina Hair Hair salon / Beauty
+07 The Welcome Pages Business directory / Local listings
 
 Client feedback
 
@@ -222,9 +248,9 @@ Let’s work together
 
 A website for your business or a development partner for your agency—tell me what you’re planning.
 
-hasanfattamd@gmail.com Connect on LinkedIn
+Email hasanfattamd@gmail.com LinkedIn Connect on LinkedIn
 
-© Mohammed · Independent developer WordPress · ReactJS · Frontend
+© Mohammed · Code with purpose. WordPress · ReactJS · Frontend
 
 ## Project links
 
@@ -233,6 +259,8 @@ hasanfattamd@gmail.com Connect on LinkedIn
 - [New England Cleaning Service](https://neccri.com/) — Service provider
 - [Epic Tours — Gran Canaria](https://epictoursgrancanaria.com/) — Travel / Tourism
 - [Bay Shores Living](https://www.bayshoresliving.com/) — Real estate / Property services
+- [Rebecca Nina Hair](https://www.rebeccaninahair.com/) — Hair salon / Beauty
+- [The Welcome Pages](https://www.thewelcomepages.com/) — Business directory / Local listings
 
 ## Process source
 
