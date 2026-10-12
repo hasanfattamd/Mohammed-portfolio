@@ -33,7 +33,7 @@ No package installation is needed to build or preview. Node 22 or newer is recom
 Build command: `npm run build`
 Output directory: `dist`
 
-The first deployment was completed through Vercel Drop on 10 October 2026. It is a static upload, so local edits do not publish automatically. See `DEPLOYMENT.md` for the deployment record and update guidance.
+The site is deployed from this folder with the Vercel CLI (`npx vercel deploy --prod`). The project is not connected to Git, so local edits and pushes do not publish automatically. The deployment record and steps are kept in a local `DEPLOYMENT.md`, which is not part of this repository.
 
 When Vercel provides `VERCEL_PROJECT_PRODUCTION_URL`, the build generates canonical metadata and a sitemap automatically. For a custom domain, set `SITE_URL` to the final HTTPS origin and redeploy.
 
